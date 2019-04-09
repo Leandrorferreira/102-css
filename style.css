@@ -27,6 +27,7 @@ nav a:nth-child(1){
 nav a:hover{
     color:rgb(255, 173, 97);
     text-decoration: underline;
+    transition: 0.9s;
 }
 
 section{  
@@ -77,9 +78,10 @@ input ::placeholder{
 
 /* vw = view port, referente a janela*/
 footer{
-    width: 100vw;
+    width: 98.8vw;
     height: 100px;       
     display: flex;
+    background-color: aqua;
     justify-content: center;
     align-items: center;
 }
@@ -93,6 +95,12 @@ footer div{
 }
 
 footer div img{
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+header{
+    height: 300px;
+    background-image: url("http://3.bp.blogspot.com/-dzgUhEYi81U/UL0wTvsphaI/AAAAAAAAAhQ/aZl8CTTJFwI/s1600/perryfinal.jpg");
+    background-size: cover;
 }
