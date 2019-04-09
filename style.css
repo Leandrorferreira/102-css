@@ -74,3 +74,25 @@ input ::placeholder{
     font-size:9pt;   
     text-align: center;
 }
+
+/* vw = view port, referente a janela*/
+footer{
+    width: 100vw;
+    height: 100px;       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* id é mais forte que classe que é mais forte que elemento */
+
+footer div{
+   width: 150%;
+   display: flex;
+   justify-content: space-between;   
+}
+
+footer div img{
+    width: 20px;
+    height: 20px;
+}
