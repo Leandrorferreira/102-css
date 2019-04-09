@@ -1,0 +1,26 @@
+body{
+    margin:0;
+}
+
+nav{
+    background-color: aqua;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav a{
+    color: rgb(241, 111, 24);
+    text-decoration: none;
+}
+
+/*elemento superior elemento:pseudo-classe*/
+nav a:nth-child(1){
+    color:blue;
+    font-size:22pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+
